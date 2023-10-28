@@ -1,11 +1,11 @@
-About perl-mime-base64
-======================
+About perl-mime-base64-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/perl-mime-base64-feedstock/blob/main/LICENSE.txt)
 
 Home: https://metacpan.org/pod/MIME::Base64
 
 Package license: GPL-1.0-or-later OR Artistic-1.0-Perl
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/perl-mime-base64-feedstock/blob/main/LICENSE.txt)
 
 Summary: The RFC 2045 encodings; base64 and quoted-printable
 
@@ -13,7 +13,14 @@ Current build status
 ====================
 
 
-<table>
+<table><tr>
+    <td>Travis</td>
+    <td>
+      <a href="https://app.travis-ci.com/conda-forge/perl-mime-base64-feedstock">
+        <img alt="linux" src="https://img.shields.io/travis/com/conda-forge/perl-mime-base64-feedstock/main.svg?label=Linux">
+      </a>
+    </td>
+  </tr>
     
   <tr>
     <td>Azure</td>
@@ -30,14 +37,28 @@ Current build status
               <td>linux_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16999&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/perl-mime-base64-feedstock?branchName=main&jobName=linux&configuration=linux_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/perl-mime-base64-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16999&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/perl-mime-base64-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16999&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/perl-mime-base64-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16999&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/perl-mime-base64-feedstock?branchName=main&jobName=osx&configuration=osx_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/perl-mime-base64-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
                 </a>
               </td>
             </tr>
