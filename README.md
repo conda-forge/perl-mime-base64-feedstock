@@ -191,4 +191,5 @@ Feedstock Maintainers
 =====================
 
 * [@cbrueffer](https://github.com/cbrueffer/)
+* [@martin-g](https://github.com/martin-g/)
 
